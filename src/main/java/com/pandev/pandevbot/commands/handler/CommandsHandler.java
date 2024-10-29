@@ -1,8 +1,7 @@
-package com.panev.PanDevBot.commands.handler;
+package com.pandev.pandevbot.commands.handler;
 
-import com.panev.PanDevBot.commands.*;
-import com.panev.PanDevBot.utils.Consts;
-import lombok.extern.slf4j.Slf4j;
+import com.pandev.pandevbot.commands.*;
+import com.pandev.pandevbot.utils.Consts;
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
@@ -10,7 +9,6 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import java.util.Map;
 
 @Component
-@Slf4j
 public class CommandsHandler {
 
     private final Map<String, Command> commands;  // Словарь команд для хранения связей между строками команд и их реализациями

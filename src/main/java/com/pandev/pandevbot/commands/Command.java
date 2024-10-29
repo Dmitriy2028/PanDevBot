@@ -1,4 +1,4 @@
-package com.panev.PanDevBot.commands;
+package com.pandev.pandevbot.commands;
 
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;

@@ -1,4 +1,4 @@
-package com.panev.PanDevBot;
+package com.pandev.pandevbot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

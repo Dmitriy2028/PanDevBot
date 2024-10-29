@@ -1,8 +1,8 @@
-package com.panev.PanDevBot.commands;
+package com.pandev.pandevbot.commands;
 
-import com.panev.PanDevBot.service.CategoryService;
-import com.panev.PanDevBot.utils.Consts;
-import com.panev.PanDevBot.utils.MessageUtils;
+import com.pandev.pandevbot.service.CategoryService;
+import com.pandev.pandevbot.utils.Consts;
+import com.pandev.pandevbot.utils.MessageUtils;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;

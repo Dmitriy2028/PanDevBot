@@ -1,4 +1,4 @@
-package com.panev.PanDevBot.entity;
+package com.pandev.pandevbot.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;

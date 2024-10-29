@@ -1,7 +1,7 @@
-package com.panev.PanDevBot.service;
+package com.pandev.pandevbot.service;
 
-import com.panev.PanDevBot.entity.Category;
-import com.panev.PanDevBot.entity.CategoryRepository;
+import com.pandev.pandevbot.entity.Category;
+import com.pandev.pandevbot.entity.CategoryRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

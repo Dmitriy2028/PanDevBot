@@ -1,4 +1,4 @@
-package com.panev.PanDevBot.entity;
+package com.pandev.pandevbot.entity;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;

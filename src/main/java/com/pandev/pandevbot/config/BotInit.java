@@ -1,6 +1,6 @@
-package com.panev.PanDevBot.config;
+package com.pandev.pandevbot.config;
 
-import com.panev.PanDevBot.bot.TelegramBot;
+import com.pandev.pandevbot.bot.TelegramBot;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.event.ContextRefreshedEvent;
