@@ -1,7 +1,7 @@
 package com.pandev.pandevbot.bot;
 
 import com.pandev.pandevbot.commands.handler.CommandsHandler;
-import com.pandev.pandevbot.config.BotProperties;
+import com.pandev.pandevbot.bot.config.BotProperties;
 import com.pandev.pandevbot.utils.Consts;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

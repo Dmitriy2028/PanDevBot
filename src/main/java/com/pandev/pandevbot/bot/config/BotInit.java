@@ -1,4 +1,4 @@
-package com.pandev.pandevbot.config;
+package com.pandev.pandevbot.bot.config;
 
 import com.pandev.pandevbot.bot.TelegramBot;
 import lombok.extern.slf4j.Slf4j;

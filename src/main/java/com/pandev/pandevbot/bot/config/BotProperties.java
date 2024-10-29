@@ -1,4 +1,4 @@
-package com.pandev.pandevbot.config;
+package com.pandev.pandevbot.bot.config;
 
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Value;
