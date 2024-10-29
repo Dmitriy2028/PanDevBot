@@ -1,0 +1,24 @@
+#docker build -t pandev .
+#docker-compose up -d
+
+services:
+  pandev:
+    image: "pandev"
+    container_name: "pandev"
+    ports:
+      - "8080:8080"
+    links:
+      - "pandev-postgres"
+    environment:
+      SPRING_PROFILES_ACTIVE: docker
+      TELEGRAM_BOT_NAME: "***"    #add your bot name
+      TELEGRAM_BOT_TOKEN: "***"   #add your bot token
+  pandev-postgres:
+    image: "postgres"
+    container_name: "pandev-postgres"
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=1234
+      - POSTGRES_DB=pandev_db
